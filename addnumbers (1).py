@@ -9,6 +9,7 @@ Original file is located at
 
 a = int(input("Enter a number: "))
 b = int(input("Enter a number: "))
-c = a + b
+c = int (input("Enter another number: "))
+d = a + b + c
 
-print("The sum of the two numbers is:" , c)
+print("The sum of the two numbers is:" , d)
