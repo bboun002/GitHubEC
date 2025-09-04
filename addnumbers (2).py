@@ -10,7 +10,8 @@ Original file is located at
 #assign two varibles for user to input two numbers
 a = int(input("Enter a number: "))
 b = int(input("Enter a number: "))
+c = int(input("Enter a number: "))
 #create the calculation for the numbers to be added together
-c = a + b
+d = a + b + c
 #print out the results
-print("The sum of the two numbers is:" , c)
+print("The sum of the two numbers is:" , d)
